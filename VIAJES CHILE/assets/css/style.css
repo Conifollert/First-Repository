@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+    body{
+        font-family: "Raleway", sans-serif;
+        color: #fff;
+        background-color: #242423;
+     }
+
+
+     .bg-interno{
+        background-color: transparent;
+        transition: all 2s ease;
+     }
+
+     #about i {
+        vertical-align: middle;
+     }
+
+
+    
+    #about p,#cards p {
+       font-size: 0.75rem;
+    }
+
+    .separador {
+        opacity: 100%;
+        border-top: 1px solid #17a3b8;
+        width: 100%;
+    }
+
+
+    .destacados {
+        margin-bottom: 10rem;
+    }
+    
+    .card {
+        min-height: 24rem;
+        width: 90%;
+        margin-left: 0.9rem;
+    }
+    
+   
+
+   h4 {
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 30px;   
+}
+
+
+.card {
+    margin: 0 20px;
+    background-color: #328998;
+}
+
+
+.card-group {
+    border: 1px black;
+    margin-bottom: 100px;
+}
+
+
+.card-title {
+    font-size: 16pt;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+}
+
+
+.card-text {
+    font-size: 12pt;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+}
+
+.card:hover {
+    
+    color: black;
+}
+
+
+.card-img-top {
+    padding: 2px;
+}
+
+
+.pie h3{
+    font-weight: 300;
+    
+}
+
+
+
+
+
+
+  
+  /* smooth a sroll*/
+   /*.bg-interno{
+    background-color: #16a2b7;
+    transition: all 2s ease;
+   }
+  
+   .h1{
+    font-family: "Raleway";
+    font-size: 400;
+   }
+   .container_header{
+    margin-left: 0;
+    margin-right: 0;
+  } 
+  
+  .carousel-item {
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .container_h1{
+    margin-left: 0;
+    margin-right: 0;
+  } 
+  .hr_linea{
+    background-color: #16a2b7;
+    height:0.2em;
+  
+  }
+  .card0
+  {
+    background-color: black;
+  }
+  .card-body01
+  {  background-color: #16a2b7;  
+    padding:0;
+    }
+  .fa-iconos{
+    font-size: 2em;
+    color: #fff;
+  }
+  .card-body02
+  {  background-color: black;
+    color:white;
+    padding:0;
+    margin:0;
+    text-align:left;
+  
+  }
+  .card-body00
+  {  background-color:white;;  
+    margin-top: 1.5em;
+    }
+  .card-body03
+  { background-color: #16a2b7;  
+    color:white;
+    text-align:left;
+    height:17em;
+    padding: 0.5em;
+    
+  }
+  .card-imagen{
+    height:140px;
+  }
+  /* footer*/
+  .page-footer
+  {
+    background-color: #16a2b7;
+  }
+  footer {
+    color:white;
+    font-weight: bold;
+    background-color: #16a2b7;
+    font-family: "Raleway";
+    font-size: 400;
+    position: absolute;
+    width: 100%;
+    padding:2px
+   }
+   /* Botones de redes sociales*/
+  .btn{
+    width:50px;
+    color:#16a2b7;
+    margin:10px;
+    padding:10px;
+    background-color: white;
+  }
